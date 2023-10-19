@@ -176,7 +176,7 @@
     display: flex;
     align-items: center;
 }
-.contact_text h5{
+.contact_text h6{
     color: #CA002D;
     font-size: 20px;
     text-decoration: underline;
