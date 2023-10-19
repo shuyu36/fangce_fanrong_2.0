@@ -1,170 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/fanrong_index.css" />
-    <title>Document</title>
-  </head>
-
-  <body>
-    <header>
-      <div class="media_block">
-        <div class="media_icon_top">
-          <div>
-            <img src="./image/icon_letter.svg" alt="" />
-            <img src="./image/icon_map.svg" alt="" />
-          </div>
-          <div>
-            <img src="./image/icon_fb.svg" alt="" />
-            <img src="./image/icon_line.svg" alt="" />
-            <img src="./image/icon_phone.svg" alt="" />
-          </div>
-        </div>
-      </div>
-
-      <div class="navbar_block">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./image/logo_header.svg" alt="" class="logo_top" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">首頁</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">關於凡融</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">產品介紹</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">服務案例</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">聯絡凡融</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-
-    <article>
-      <!-- topBanner -->
-      <section>
-        <div class="index_banner">
-          <div class="banner_img">
-            <img src="./image/index_banner_img.png" alt="" />
-          </div>
-          <div class="banner_content">
-            <div class="banner_title">
-              <h4>凡融國際服務</h4>
-              <div class="line_blue"></div>
-            </div>
-            <div class="banner_text">
-              <h5>
-                電子鎖｜門鎖五金｜門鎖配件<br />
-                建案電子鎖｜到府改裝玄關門
-              </h5>
-              <p>
-                服務專線 02-2901-5678<br />
-                免付費專線 0800-777-161
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ABOUT -->
-      <section>
-        <div class="about_block">
-          <div class="about_img">
-            <img src="./image/index_about_lg.png" alt="" class="about_lg_img" />
-            <div class="blue_block">
-              <img
-                src="./image/index_about_sm.png"
-                alt=""
-                class="about_sm_img"
-              />
-            </div>
-          </div>
-          <div class="about_content">
-            <div class="about_title">
-              <img src="./image/I.svg" alt="" class="bgi_I" />
-
-              <img
-                src="./image/about_icon.svg"
-                alt=""
-                style="width: 45px; height: auto"
-              />
-              <h5>我們賣的不是產品 是一種責任</h5>
-            </div>
-            <p>
-              凡融1982~2023,至今。<br />2004年開始,專注於服務所有建案客戶,實際案例過萬戶，對於客戶的需求與精緻要求,秉持著客戶至上的精神以及服務經歷。<br /><br />凡融國際有限公司自創立以來,長年致力於門用科技五金的研發、生產、銷售,持續的提供市場、能取向、品質取勝的產品,並取得多項專利及CNS防火級認證,以及領先業界通過SGS使用測試認證,不僅強化自身的實力,更取得世界級的製鎖集團ISEO、及TOPP的總代理。
-            </p>
-            <div class="about_bottom">
-              <div class="line_blue"></div>
-              <div class="a_block">
-                <button type="button" class="btn btn-secondary btn-lg">
-                  產品介紹
-                </button>
-                <button type="button" class="btn btn-secondary btn-lg">
-                  服務案例
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="contact_content">
-          <img src="./image/index_contact_img.png" alt="" />
-          <div class="contact_text">
-            <div class="contact_title">
-              <div><img src="./image/about_icon.svg" alt="" /></div>
-              <h5>我們賣的不是產品 是一種責任</h5>
-            </div>
-            <h5>從生產製造、購買、安裝、售後服務，一條龍的服務。</h5>
-            <p>建設公司把守護大門主鎖與凡融合作
-              多年來讓消費者買得安心住得放心
-              如今我們能為你做的只有更多</p>
-
-          </div>
-        </div>
-      </section>
-    </article>
-
-    <footer>
+ <footer>
       <div class="footer_content">
         <div class="logo_footer">
           <img src="./image/logo_footer.svg" alt="" />
@@ -202,6 +36,7 @@
               <li>凡融資訊</li>
             </ul>
           </div>
+
         </div>
 
         <div class="footer_media">
@@ -233,7 +68,8 @@
             margin-top: -30px;
           "
         >
-          Copyright © 2023 凡融國際 All Rights Reserved Reserved.隱私權政策
+          Copyright © 2023 凡融國際 All Rights Reserved
+          Reserved.隱私權政策
         </p>
       </div>
       <!--隱私權政策-->
@@ -327,11 +163,3 @@
         </div>
       </div>
     </footer>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>

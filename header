@@ -1,0 +1,55 @@
+<header>
+      <div class="media_block">
+        <div class="media_icon_top">
+          <div>
+            <img src="./image/icon_letter.svg" alt="" />
+            <img src="./image/icon_map.svg" alt="" />
+          </div>
+          <div>
+            <img src="./image/icon_fb.svg" alt="" />
+            <img src="./image/icon_line.svg" alt="" />
+            <img src="./image/icon_phone.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar_block">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./image/logo_header.svg" alt="" class="logo_top" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">首頁</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">關於凡融</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">產品介紹</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">服務案例</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">聯絡凡融</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
