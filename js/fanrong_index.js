@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 4,
+    slidesPerView: 3,
     centeredSlides: false,
     slidesPerGroupSkip: 1,
     grabCursor: true,
@@ -8,8 +8,19 @@ document.addEventListener("DOMContentLoaded", function () {
       enabled: true,
     },
     breakpoints: {
-      769: {
+
+      1660:{
         slidesPerView: 3,
+        slidesPerGroup: 1,
+      },
+
+      1366:{
+        slidesPerView: 2,
+        slidesPerGroup: 1,
+
+      },
+      769: {
+        slidesPerView: 2,
         slidesPerGroup: 1,
       },
     },

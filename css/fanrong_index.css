@@ -111,6 +111,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 30px;
 }
 .about_title {
   display: flex;
@@ -124,6 +125,7 @@
   z-index: -5;
   left: -45px;
   top: -45px;
+  width: 20%;
 }
 
 .about_title h5 {
@@ -158,9 +160,13 @@
   margin: 100px auto;
   justify-content: flex-start;
   gap: 60px;
-  align-items: flex-end;
+  align-items: center;
   /* overflow: hidden; */
   position: relative;
+}
+
+.contact_img{
+  width: 100%;
 }
 
 .contact_text {
@@ -168,6 +174,7 @@
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  width: 50%;
 }
 
 .contact_title {
@@ -260,7 +267,7 @@
 .service_content {
   display: flex;
   max-width: 1600px;
-  margin: 100px auto;
+  margin: 100px;
   padding: 50px 0;
   gap: 100px;
 }
@@ -270,7 +277,7 @@
   flex-direction: column;
   gap: 10px;
   width: 600px;
-  /* position: relative; */
+  margin-left: 10px;
 }
 
 .swiper img {
@@ -286,13 +293,70 @@
   position: absolute;
   left: -80px;
   top: -90px;
+  width: 20%;
 }
 
 /* RWD */
 @media only screen and (max-width: 1660px) {
+  .service_title {
+    width: 1000px;
+  }
+
+  .product_content ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .product_text {
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 1366px) {
+  .about_block {
+    max-width: 1600px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .blue_block {
+    width: 33%;
+  }
+
+  .about_lg_img {
+    width: 60%;
+  }
+
+  .contact_img{
+    width: 90%;
+  }
+
+  .bgi_S {
+    left: 515px;
+    top: -210px;
+    width: 23%;
+  }
+
+  .bgi_E {
+    top: 320px;
+    right: 29px;
+    width: 15%;
+  }
+
+  .service_content {
+    gap: 30px;
+  }
+
+  .product_content ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 87%;
+    gap: 30px;
+    flex-wrap: nowrap;
+  }
+
   .banner_title h4 {
     font-weight: bold;
     font-size: 20px;
@@ -315,6 +379,9 @@
     margin-left: 2%;
     padding: 60px 15px;
   }
+  .about_lg_img {
+    width: 50%;
+}
 }
 
 @media only screen and (device-width: 1024px) and (device-height: 720px) {
