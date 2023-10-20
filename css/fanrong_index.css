@@ -50,12 +50,6 @@
   font-weight: bold;
 }
 
-.line_blue {
-  background: #10325a;
-  width: 330px;
-  height: 6px;
-}
-
 .banner_text {
   background-color: #10325a;
   border: 2px solid #fff;
@@ -119,17 +113,17 @@
   justify-content: space-around;
 }
 .about_title {
-    display: flex;
-    align-items: center;
-    position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 /* 背景圖 */
-.bgi_I{
-    position: absolute;
-    z-index: -5;
-    left: -45px;
-    top: -45px;
+.bgi_I {
+  position: absolute;
+  z-index: -5;
+  left: -45px;
+  top: -45px;
 }
 
 .about_title h5 {
@@ -157,29 +151,141 @@
   border-color: #10325a;
 }
 
-
 /* 聯絡凡融 */
-.contact_content{
-    display: flex;
-    max-width: 1800px;
-    margin: 100px auto;
-    /* width: 100vw; */
+.contact_content {
+  display: flex;
+  max-width: 1800px;
+  margin: 100px auto;
+  justify-content: flex-start;
+  gap: 60px;
+  align-items: flex-end;
+  /* overflow: hidden; */
+  position: relative;
 }
 
-.contzct_text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contact_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
 .contact_title {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.contact_text h6{
-    color: #CA002D;
-    font-size: 20px;
-    text-decoration: underline;
+
+.contact_text h6 {
+  color: #ca002d;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.contact_text p {
+  text-align: center;
+}
+
+.bgi_S {
+  position: absolute;
+  z-index: -9;
+  left: 650px;
+  top: -240px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bgi_E {
+  position: absolute;
+  z-index: -6;
+  top: 345px;
+  right: 0px;
+  max-width: 100%; /* 最大宽度不超过包含元素的宽度 */
+  max-height: 100%; /* 最大高度不超过包含元素的高度 */
+  /* width: 100%; */
+}
+
+/* 產品介紹 */
+.product_content {
+  display: flex;
+  max-width: 1800px;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.product_title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.product_content ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.product_content img {
+  width: 100%;
+}
+
+.product_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  gap: 30px;
+}
+
+.product_text p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.a_link a {
+  color: #10325a;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.a_link a:hover {
+  color: #5c636a;
+}
+
+/* 服務案例輪播 */
+
+.service_content {
+  display: flex;
+  max-width: 1600px;
+  margin: 100px auto;
+  padding: 50px 0;
+  gap: 100px;
+}
+
+.service_title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 600px;
+  /* position: relative; */
+}
+
+.swiper img {
+  width: 100%;
+}
+
+.service_title h4 {
+  font-size: 40px;
+}
+
+.bgi_O {
+  z-index: -40;
+  position: absolute;
+  left: -80px;
+  top: -90px;
 }
 
 /* RWD */
@@ -199,7 +305,7 @@
 }
 
 @media only screen and (max-width: 1266px) {
-  .line_blue {
+  .line_blue_lg {
     width: 250px;
   }
   .banner_title {
@@ -218,7 +324,7 @@
   .banner_title {
     margin-left: 4%;
   }
-  .line_blue {
+  .line_blue_lg {
     width: 220px;
   }
 }
