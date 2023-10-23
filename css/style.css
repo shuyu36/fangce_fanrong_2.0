@@ -58,8 +58,8 @@ a:hover {
 }
 
 .media_icon_top img {
-  margin: 10px 10px;
-  width: 27px;
+  margin: 8px 8px;
+  width: 26px;
 }
 
 .navbar {
@@ -380,7 +380,7 @@ footer {
 
 .footer_media img {
   margin: 5px;
-  width: 27px;
+  width: 26px;
 }
 
 /* RWD */
