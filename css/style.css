@@ -58,8 +58,8 @@ a:hover {
 }
 
 .media_icon_top img {
-  margin: 8px 8px;
-  width: 26px;
+  margin: 10px 10px;
+  width: 27px;
 }
 
 .navbar {
@@ -376,6 +376,7 @@ footer {
 
 .footer_media {
   margin: 20px;
+  min-width: 224px;
 }
 
 .footer_media img {
@@ -616,9 +617,6 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-  .media_icon_top {
-    justify-content: space-around;
-}
   .banner_imgall {
     width: 80%;
   }
