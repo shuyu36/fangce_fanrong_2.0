@@ -1,5 +1,5 @@
 body {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family:Arial, Helvetica, sans-serif	,"Noto Sans TC", sans-serif;
   letter-spacing: 0.4rem;
   color: #10325a;
   /* background-color: #F8F9FA; */
@@ -19,7 +19,6 @@ h5,
 h6,
 p {
   margin-top: 0;
-  font-weight: bolder;
   margin-bottom: 0rem;
 }
 
