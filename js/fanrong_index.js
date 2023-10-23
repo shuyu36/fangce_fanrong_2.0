@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         slidesPerView: 3,
         slidesPerGroup: 1,
       },
-      880:{
+      650:{
         slidesPerView: 2,
         slidesPerGroup: 1,
       },

@@ -442,7 +442,7 @@
     top: 297px;
     right: 23px;
     width: 15%;
-}
+  }
 
   .about_sm_img  {
     width: 90%;
@@ -502,6 +502,20 @@
 }
 
 @media only screen and (max-width: 680px) {
+  .index_banner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .banner_img {
+    width: 100%;
+  }
+
+  .banner_content {
+    width: 100%;
+    padding: 50px;
+  }
+
   .about_block {
     align-items: center;
     flex-direction: column;
@@ -538,7 +552,7 @@
     top: 987px;
     right: 73px;
     width: 20%;
-}
+  }
 
   .product_content ul {
     flex-wrap: wrap;
@@ -556,7 +570,7 @@
     left: 130px;
     top: -80px;
     width: 25%;
-}
+  }
   .service_content {
     flex-direction: column;
     padding: 0px;
@@ -570,6 +584,56 @@
   }
 }
 
-@media only screen and (max-width: 430px) {
-  
+@media only screen and (max-width: 500px) {
+  .line_blue_lg {
+    width: 80px;
+  }
+
+  .banner_content {
+    width: 100%;
+    padding: 30px 13px;
+    align-items: center;
+  }
+
+  .banner_title h4 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .banner_text h5 {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .banner_text p {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 21px;
+  }
+
+  .product_text li {
+    width: 86%;
+  }
+
+  .bgi_I {
+    width: 15%;
+  }
+
+  .bgi_S {
+    left: 74px;
+    top: -230px;
+    width: 36%;
+  }
+  .bgi_E {
+    top: 800px;
+    right: 33px;
+    width: 28%;
+  }
+  .bgi_O {
+    z-index: -40;
+    position: absolute;
+    left: 47px;
+    top: -80px;
+    width: 33%;
+  }
 }
