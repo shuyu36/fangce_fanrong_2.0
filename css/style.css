@@ -1,7 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif, "Noto Sans TC", sans-serif;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.5rem;
   color: #10325a;
+  line-height: 1.5;
   /* background-color: #F8F9FA; */
 }
 
@@ -20,6 +21,10 @@ h6,
 p {
   margin-top: 0;
   margin-bottom: 0rem;
+}
+
+h5,h4,h3{
+  font-weight: bold;
 }
 
 a {
@@ -190,11 +195,6 @@ a:hover {
   position: relative;
 }
 
-.about_title h5 {
-  font-weight: bold;
-  letter-spacing: 6.75px;
-}
-
 .a_block {
   display: flex;
   margin-top: 35px;
@@ -244,9 +244,8 @@ a:hover {
   align-items: center;
 }
 
-.contact_text h6 {
+.red_text{
   color: #ca002d;
-  font-size: 20px;
   text-decoration: underline;
   text-align: center;
 }
@@ -313,6 +312,11 @@ a:hover {
   border-bottom: 2px solid #10325a;
   padding: 2rem 1.25rem;
   background-color: transparent;
+  letter-spacing: 0.3rem;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 0;
 }
 
 .collapseAllitem {

@@ -1,0 +1,128 @@
+.allbanner {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../image/service_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75%;
+}
+
+/* 服務流程 */
+
+.service_content {
+  max-width: 1800px;
+  margin: 100px auto;
+}
+
+.service_title {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.service_content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.service_content li {
+  padding: 20px;
+  width: 65%;
+  background: #10325a;
+  color: #fff;
+  text-align: center;
+}
+
+/* 案例 */
+.case_content {
+  max-width: 1600px;
+  margin: 100px auto;
+  /* background-color: aqua; */
+}
+
+.case_title {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.case_img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.case_img img {
+  max-width: 90%;
+}
+/* 建案 */
+
+.build_content {
+  max-width: 1600px;
+  margin: 100px auto;
+  width: 100%;
+  /* background-color:#0a9173; */
+}
+
+.build_title {
+  padding: 50px;
+}
+.swiper-slide {
+  text-align: center;
+  padding: 30px;
+}
+.swiper-slide img {
+  max-width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+:root {
+  --swiper-theme-color: #10325a;
+}
+
+/* RWD */
+@media only screen and (max-width: 1660px) {
+}
+
+@media only screen and (max-width: 1366px) {
+  .service_content li {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 1266px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 991px) {
+  .case_title {
+    align-items: center;
+  }
+  .build_title {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .case_img img {
+    max-width: 45%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+}
+
+@media only screen and (max-width: 680px) {
+}
+
+@media only screen and (max-width: 500px) {
+  .case_title {
+    padding: 30px;
+}
+}
