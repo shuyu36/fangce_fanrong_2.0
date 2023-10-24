@@ -492,15 +492,22 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
+  .navbar_block {
+    background: #f8f9fa;
+    position: absolute;
+    width: 100%;
+}
   .navbar {
     display: block;
     padding-top: 0rem;
     padding-bottom: 0rem;
+    /* background: rgba(255, 255, 255, 0.97); */
   }
 
   .nav-item {
     border-bottom: 2px solid #fff;
     line-height: 40px;
+    z-index: 1;
   }
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
@@ -517,6 +524,13 @@ footer {
     background-color: #10325a;
     /* color: #fff; */
   }
+  .allbanner {
+    margin-top: 120px;
+  }
+
+  .index_banner{
+    margin-top: 120px;
+}
 
   .line_blue_lg {
     width: 220px;
@@ -539,6 +553,7 @@ footer {
 }
 
 @media only screen and (max-width: 820px) {
+
   .logo_top {
     height: 50px;
     margin: 10px;
@@ -548,6 +563,13 @@ footer {
     width: 100px;
   }
 
+  .allbanner {
+    margin-top: 80px;
+  }
+
+  .index_banner{
+    margin-top: 80px;
+}
   /* faq */
   .collapseLeft,
   .collapseRight {

@@ -1,0 +1,105 @@
+.allbanner {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../image/product_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25%;
+}
+
+.porduct_content {
+  max-width: 1600px;
+  margin: 100px auto;
+}
+
+.product_title {
+  margin: 50px;
+}
+
+.product_title h3 {
+  text-align: center;
+}
+
+/* 選單 */
+
+.product_dropdowns {
+  border-bottom: 3px solid #10325a;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+  font-size: 22px;
+  letter-spacing: 0.5rem;
+}
+
+.dropdown-toggle::after {
+  content: ""; /* 清空伪元素的内容 */
+  background-image: url("../image/under_bottom.svg"); /* 使用您的图像路径 */
+  background-size: 20px 20px; /* 根据需要调整图像大小 */
+  background-repeat: no-repeat;
+  display: inline-block; /* 使伪元素显示为块级元素以便设置宽高 */
+  width: 20px;
+  height: 20px;
+  border: none;
+  /* 其它样式属性 */
+}
+.btn-secondary {
+  color: #10325a;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+  font-size: 22px;
+  letter-spacing: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #10325a;
+}
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #10325a;
+  border-color: transparent;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #10325a;
+  /* border: ; */
+}
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #fff;
+  text-align: left;
+  list-style: none;
+  background-color: #10325a;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0rem;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #10325a;
+  background-color: #fff;
+}
+
+.dropdown-menu a {
+  color: #fff;
+}
+
+.btn {
+  border-radius: 0rem;
+}
