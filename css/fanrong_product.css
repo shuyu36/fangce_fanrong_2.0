@@ -59,7 +59,6 @@
   letter-spacing: 0.5rem;
   display: flex;
   align-items: center;
-  font-weight: bold;
   color: #10325a;
 }
 .btn-secondary:hover {
@@ -102,4 +101,35 @@
 
 .btn {
   border-radius: 0rem;
+}
+
+/* 商品切換 */
+.product_text {
+  display: flex;
+  margin: 100px 50px;
+  padding: 0px 50px 0 100px;
+  /* background: #5d86b6; */
+  gap: 10%;
+}
+
+.product_img {
+  width: 100%;
+}
+
+.product_introduce {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.product_important ul {
+  list-style-type: square;
+}
+
+.product_important ul li::marker {
+  font-size: 21px;
+}
+
+.product_important ul li {
+  padding: 3px;
 }
