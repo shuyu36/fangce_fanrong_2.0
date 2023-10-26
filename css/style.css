@@ -659,6 +659,9 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+  h5 {
+    font-size: 0.9rem;
+}
   .banner_imgall {
     width: 80%;
   }
