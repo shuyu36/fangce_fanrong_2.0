@@ -316,10 +316,12 @@ a:hover {
   padding: 2rem 1.25rem;
   background-color: transparent;
   letter-spacing: 0.3rem;
+  z-index: 1;
 }
 
 .accordion-item:last-of-type .accordion-button.collapsed {
   border-radius: 0;
+  z-index: 1;
 }
 
 .collapseAllitem {
