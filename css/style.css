@@ -23,11 +23,10 @@ p {
   margin-bottom: 0rem;
 }
 
-
-h3, 
+h3,
 h4,
 h5,
-h6{
+h6 {
   font-weight: bold;
 }
 
@@ -661,7 +660,10 @@ footer {
 @media only screen and (max-width: 500px) {
   h5 {
     font-size: 0.9rem;
-}
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
   .banner_imgall {
     width: 80%;
   }

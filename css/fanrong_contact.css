@@ -18,7 +18,7 @@
 }
 
 .info_title {
-  margin-bottom: 100px;
+  margin: 0 20px 100px;
 }
 
 .info_title h3 {
@@ -109,6 +109,9 @@
 }
 
 @media only screen and (max-width: 535px) {
+  .info_content {
+    margin: 60px auto;
+  }
   .info_all {
     display: inline-flex;
     flex-direction: row;
@@ -117,17 +120,20 @@
     border-radius: 20px;
     gap: 16px;
   }
-  .info_email a{
+  .info_email a {
     font-size: 13px;
-
   }
+  .info_title {
+    margin: 0 20px 60px;
+  }
+  
 }
 
-  @media only screen and (max-width: 430px) {
-    .info_all img {
-      width: 45px;
-    }
-  
+@media only screen and (max-width: 430px) {
+  .info_all img {
+    width: 45px;
+  }
+
   .info_all {
     display: inline-flex;
     width: 95%;
@@ -137,8 +143,8 @@
     flex-direction: column;
   }
 }
-  @media only screen and (max-width: 400px) {
-    .info_all {
-      width: 98%;
-    }
+@media only screen and (max-width: 400px) {
+  .info_all {
+    width: 98%;
   }
+}
