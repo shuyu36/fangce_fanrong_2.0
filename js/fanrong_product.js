@@ -1,34 +1,57 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // 获取所有列表项
-    var listItems = document.querySelectorAll('.dropdown-menu li');
-  
-    // 获取所有产品内容
-    var productContents = document.querySelectorAll('.product_text');
+  // 抓所有品項
+  var listItems = document.querySelectorAll(".dropdown-menu li");
+  var listItems919 = document.querySelectorAll(".dropdown-menu991 li");
 
+  // 產品介紹
+  var productContents = document.querySelectorAll(".product_text");
+  var productContents919 = document.querySelectorAll(".product_text919");
+  // console.log(productContents);
 
-    // // 隐藏其他产品内容
-    // productContents.forEach(function (content) {
-    //         content.style.display = 'flex';
-    // });
+  // 隱藏所有內容
+  productContents.forEach(function (content, index) {
+    if (index !== 0) {
+      content.style.display = "none";
+    } else {
+      content.style.display = "flex";
+    }
+  });
 
-       // 隐藏除第四个产品内容外的所有内容
-       productContents.forEach(function (content, index) {
-        if (index !== 0) {
-            content.style.display = 'none';
-        } else {
-            content.style.display = 'flex';
-        }
-    });
-    // 为每个列表项添加点击事件监听器
-    listItems.forEach(function (item, index) {
-      item.addEventListener('click', function () {
-        // 隐藏所有产品内容
-        productContents.forEach(function (content) {
-          content.style.display = 'none';
-        });
-  
-        // 显示点击的列表项对应的产品内容
-        productContents[index].style.display = 'flex';
+  listItems.forEach(function (item, index) {
+    item.addEventListener("click", function () {
+      productContents.forEach(function (content) {
+        content.style.display = "none";
       });
+      // 檢查 index 是否在有效範圍內
+      if (index >= 0 && index < productContents.length) {
+        // 顯示點擊的內容
+        productContents[index].style.display = "flex";
+      } else {
+        // console.log("Invalid index: " + index);
+      }
     });
+  });
+
+  productContents919.forEach(function (content, index) {
+    if (index !== 0) {
+      content.style.display = "none";
+    } else {
+      content.style.display = "flex";
+    }
+  });
+  listItems919.forEach(function (item, index) {
+    item.addEventListener("click", function () {
+      productContents.forEach(function (content) {
+        content.style.display = "none";
+      });
+
+      // 檢查 index 是否在有效範圍內
+      if (index >= 0 && index < productContents.length) {
+        // 顯示點擊的內容
+        productContents[index].style.display = "flex";
+      } else {
+        // console.log("Invalid index: " + index);
+      }
+    });
+  });
 });

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -58,7 +63,7 @@
       <div class="navbar_block">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
               <img src="./image/logo_header.svg" alt="" class="logo_top" />
             </a>
             <button
@@ -108,7 +113,7 @@
               <h4>凡融國際服務</h4>
               <div class="line_blue_lg"></div>
             </div>
-            <div class="banner_text">
+            <div class="banner_text " data-aos="zoom-in" data-aos-duration="2000">
               <h5>
                 電子鎖｜門鎖五金｜門鎖配件<br />
                 建案電子鎖｜到府改裝玄關門
@@ -466,5 +471,9 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
