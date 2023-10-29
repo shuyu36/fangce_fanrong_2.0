@@ -218,7 +218,7 @@ hr {
     width: 85%;
   }
   .product_important ul {
-    list-style-position: inside;
+    /* list-style-position: inside; */
 }
 }
 

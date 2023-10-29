@@ -295,6 +295,8 @@ a:hover {
 
 .accordion-button::after {
   background-image: url(../image/under_bottom.svg);
+  width: 21px;
+  height: 11px;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -384,7 +386,7 @@ footer {
 
 .footer_media {
   margin: 20px;
-  min-width: 224px;
+  min-width: auto;
 }
 
 .footer_media img {
@@ -655,7 +657,7 @@ footer {
     width: 90%;
   }
   .footer_allitem {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 }
 
@@ -677,5 +679,12 @@ footer {
     width: 120%;
     border: solid 10px #fff;
     margin-left: -55px;
+  }
+
+  .footer_allitem {
+    display: grid;
+    /* grid-gap: 20px; */
+    grid-template-columns: auto 100px;
+    justify-items: start;
   }
 }
