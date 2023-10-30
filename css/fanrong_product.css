@@ -3,7 +3,7 @@
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
     ),
-    url(../image/product_bg.png);
+    url(https://www.thormcl.com/fanrong/image/product_bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 25%;
@@ -90,6 +90,10 @@
   border-radius: 0rem;
 }
 
+.dropdown-item {
+  color: #fff;
+}
+
 .dropdown-item:focus,
 .dropdown-item:hover {
   color: #10325a;
@@ -132,7 +136,7 @@
 }
 
 .product_important ul li::marker {
-  font-size: 21px;
+  /* font-size: 21px; */
 }
 
 .product_important h6 {
@@ -255,7 +259,7 @@ hr {
   }
   .product_introduce {
     width: 90%;
-    padding: 0 10px;
+    /* padding: 0 10px; */
   }
   .dropdown-menu a {
     color: #fff;

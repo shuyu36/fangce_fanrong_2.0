@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+  AOS.init();
+
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     centeredSlides: false,
@@ -13,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         slidesPerView: 3,
         slidesPerGroup: 1,
       },
-      650:{
+      501:{
         slidesPerView: 2,
         slidesPerGroup: 1,
       },

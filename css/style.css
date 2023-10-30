@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, Arial;
+  font-family: Helvetica, Arial,;
   letter-spacing: 0.1rem;
   color: #10325a;
   line-height: 1.5;
@@ -92,7 +92,7 @@ a:hover {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url(../image/navbar.svg);
+  background-image: url(https://www.thormcl.com/fanrong/image/navbar.svg);
 }
 
 .navbar-light .navbar-toggler {
@@ -294,13 +294,13 @@ a:hover {
 }
 
 .accordion-button::after {
-  background-image: url(../image/under_bottom.svg);
+  background-image: url(https://www.thormcl.com/fanrong/image/under_bottom.svg);
   width: 21px;
   height: 11px;
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url(../image/up_bottom.svg);
+  background-image: url(https://www.thormcl.com/fanrong/image/up_bottom.svg);
   transform: rotate(180deg);
 }
 
@@ -602,7 +602,7 @@ footer {
   /* faq */
   .collapseLeft,
   .collapseRight {
-    margin: 10px;
+    /* margin: 10px; */
   }
   .collapseAllitem {
     gap: 0px;
@@ -668,9 +668,6 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-  h5 {
-    font-size: 0.9rem;
-  }
   h3 {
     font-size: 22px;
   }
