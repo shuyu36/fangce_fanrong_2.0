@@ -192,7 +192,7 @@
 
   .product_content ul {
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 
   .product_text {
