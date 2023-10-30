@@ -255,6 +255,7 @@ hr {
   }
   .product_introduce {
     width: 90%;
+    padding: 0 10px;
   }
   .dropdown-menu a {
     color: #fff;
