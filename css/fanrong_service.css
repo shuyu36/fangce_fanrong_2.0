@@ -137,4 +137,8 @@
   .case_img img {
     max-width: 100%;
   }
+
+  .build_title {
+    padding: 10px;
+}
 }
