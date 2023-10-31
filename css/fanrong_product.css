@@ -40,7 +40,7 @@
 
 .dropdown-toggle::after {
   content: ""; /* 清空伪元素的内容 */
-  background-image: url("../image/under_bottom.svg"); /* 使用您的图像路径 */
+  background-image: url("https://www.thormcl.com/fanrong/image/downbtn.svg"); /* 使用您的图像路径 */
   background-size: 20px 20px; /* 根据需要调整图像大小 */
   background-repeat: no-repeat;
   display: inline-block; /* 使伪元素显示为块级元素以便设置宽高 */
@@ -61,6 +61,7 @@
   display: flex;
   align-items: center;
   color: #10325a;
+  font-weight: bold;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -91,17 +92,17 @@
 }
 
 .dropdown-item {
-  color: #fff;
+  color: #fff ;
 }
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-  color: #10325a;
-  background-color: #fff;
+  color: #10325a !important;
+  background-color: #fff !important;
 }
 
 .dropdown-menu a {
-  color: #fff;
+  color: #fff !important;
 }
 
 .btn {
@@ -127,12 +128,14 @@
 .product_introduce {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   width: 50%;
 }
 
 .product_important ul {
   list-style-type: square;
+  margin-left: 19px;
+  line-height: 2;
 }
 
 .product_important ul li::marker {
@@ -140,10 +143,9 @@
 }
 
 .product_important h6 {
-  margin-top: 30px;
+  margin: 10px 0 10px 0;
   font-size: 18px;
 }
-
 .product_dropdowns991 {
   display: none;
 }

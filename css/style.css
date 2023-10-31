@@ -528,7 +528,7 @@ footer {
     z-index: 1;
   }
   .navbar-light .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #ffffff !important;    
     text-align: center;
   }
 
