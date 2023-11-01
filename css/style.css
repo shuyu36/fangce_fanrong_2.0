@@ -175,13 +175,13 @@ a:hover {
 }
 
 .about_sm_img {
-  width: 90%;
+  /* width: 90%;
   border: solid 22px #fff;
-  margin-left: -100px;
+  margin-left: -100px; */
   /* position: relative; */
   /* left: -3%; */
   /* margin: 50px; */
-  padding: -10px;
+  /* padding: -10px; */
 }
 
 .about_content {
