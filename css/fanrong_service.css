@@ -31,7 +31,7 @@
 .service_content li {
   padding: 20px;
   width: 65%;
-  background: #10325a;
+  background: #898989;
   color: #fff;
   text-align: center;
 }
@@ -81,7 +81,7 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 :root {
-  --swiper-theme-color: #10325a;
+  --swiper-theme-color: #898989;
 }
 
 /* RWD */

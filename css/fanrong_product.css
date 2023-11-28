@@ -26,7 +26,7 @@
 /* 選單 */
 
 .product_dropdowns {
-  border-bottom: 3px solid #10325a;
+  border-bottom: 3px solid #898989;
   display: flex;
   flex-direction: row;
   gap: 80px;
@@ -40,7 +40,7 @@
 
 .dropdown-toggle::after {
   content: ""; /* 清空伪元素的内容 */
-  background-image: url("https://www.thormcl.com/fanrong/image/downbtn.svg"); /* 使用您的图像路径 */
+  background-image: url("../image/downbtn.svg"); /* 使用您的图像路径 */
   background-size: 20px 20px; /* 根据需要调整图像大小 */
   background-repeat: no-repeat;
   display: inline-block; /* 使伪元素显示为块级元素以便设置宽高 */
@@ -50,7 +50,7 @@
   /* 其它样式属性 */
 }
 .btn-secondary {
-  color: #10325a;
+  color: #898989;
   background-color: transparent;
   border-color: transparent;
 }
@@ -60,18 +60,18 @@
   letter-spacing: 0.5rem;
   display: flex;
   align-items: center;
-  color: #10325a;
+  color: #898989;
   font-weight: bold;
 }
 .btn-secondary:hover {
   color: #fff;
-  background-color: #10325a;
+  background-color: #898989;
   border-color: transparent;
 }
 .btn-check:focus + .btn,
 .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.1rem #10325a;
+  box-shadow: 0 0 0 0.1rem #898989;
   /* border: ; */
 }
 .dropdown-menu {
@@ -85,7 +85,7 @@
   color: #fff;
   text-align: left;
   list-style: none;
-  background-color: #10325a;
+  background-color: #898989;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0rem;
@@ -97,7 +97,7 @@
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-  color: #10325a !important;
+  color: #898989 !important;
   background-color: #fff !important;
 }
 

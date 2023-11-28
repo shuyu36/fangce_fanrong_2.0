@@ -1,13 +1,13 @@
 body {
-  font-family: Helvetica, Arial;
+  font-family: Helvetica,Arial;
   letter-spacing: 0.1rem;
-  color: #10325a;
+  color: #898989;
   line-height: 1.5;
   /* background-color: #F8F9FA; */
 }
 
 header {
-  /* background-color: #10325a; */
+  /* background-color: #898989; */
 }
 
 ol,
@@ -32,7 +32,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #10325a;
+  color: #898989;
   font-weight: 800;
 }
 
@@ -41,7 +41,7 @@ a:hover {
 }
 
 .media_block {
-  background-color: #10325a;
+  background-color: #898989;
 }
 
 .navbar_block {
@@ -87,13 +87,13 @@ a:hover {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #10325a;
+  color: #898989;
   font-weight: bold;
   font-size: 1.1rem;
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url(https://www.thormcl.com/fanrong/image/navbar.svg);
+  background-image: url(../image/navbar.svg);
 }
 
 .navbar-light .navbar-toggler {
@@ -129,19 +129,19 @@ a:hover {
 /* content */
 
 .line_blue_lg {
-  background: #10325a;
+  background: #898989;
   width: 330px;
   height: 6px;
 }
 
 .line_blue_md {
-  background: #10325a;
+  background: #898989;
   width: 218px;
   height: 6px;
 }
 
 .line_blue_st {
-  background: #10325a;
+  background: #898989;
   width: 130px;
   height: 2px;
 }
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .blue_block {
-  background: #10325a;
+  background: #898989;
   width: 100%;
   padding: 60px 0;
   padding-left: 0px;
@@ -216,8 +216,8 @@ a:hover {
 
 .btn-secondary {
   color: #fff;
-  background-color: #10325a;
-  border-color: #10325a;
+  background-color: #898989;
+  border-color: #898989;
 }
 
 /* 聯絡凡融 */
@@ -271,7 +271,7 @@ a:hover {
 }
 
 .accordion-button {
-  color: #10325a;
+  color: #898989;
   font-weight: bold;
 }
 
@@ -296,7 +296,7 @@ a:hover {
 }
 
 .accordion-button::after {
-  background-image: url(https://www.thormcl.com/fanrong/image/under_bottom.svg);
+  background-image: url(../image/under_bottom.svg);
   width: 21px;
   height: 11px;
 }
@@ -316,7 +316,7 @@ a:hover {
 }
 .accordion-flush .accordion-item .accordion-button {
   border-radius: 0;
-  border-bottom: 2px solid #10325a;
+  border-bottom: 2px solid #898989;
   padding: 2rem 1.25rem;
   background-color: transparent;
   letter-spacing: 0.3rem;
@@ -349,7 +349,7 @@ a:hover {
 /* footer */
 
 footer {
-  background-color: #10325a;
+  background-color: #898989;
 }
 
 .footer_content {
@@ -550,7 +550,7 @@ footer {
     /* padding-left: 0; */
     /* margin-bottom: 0; */
     /* list-style: none; */
-    background-color: #10325a;
+    background-color: #898989;
     /* color: #fff; */
   }
   .allbanner {
